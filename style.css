@@ -1,0 +1,134 @@
+#sidebar{
+    background: linear-gradient(135deg, #2575FC 0%, #6A11CB 100%);
+    box-shadow: 7px -7px 14px rgba(68, 63, 214, 0.2), -7px 7px 14px rgba(68, 63, 214, 0.2), 7px 7px 14px rgba(76, 71, 242, 0.9), -7px -7px 18px rgba(68, 63, 214, 0.9), inset -1px -1px 2px rgba(76, 71, 242, 0.3), inset 1px 1px 2px rgba(68, 63, 214, 0.5);
+}
+body{
+    background-color: rgb(232, 232, 232);
+}
+.sidebar-active{
+    background: linear-gradient(to right,rgba(22, 217, 227, 1),rgba(48, 199, 236, 1),rgba(70, 174, 247, 1));
+    box-shadow: 10px 0px 20px #44B1F6;
+}
+.sidebar-element:hover{
+    background: linear-gradient(to right,rgba(22, 217, 227, 0.75),rgba(48, 199, 236, 0.75),rgba(70, 173, 247, 0.76));
+}
+.dashboard{
+    display: block;
+}
+.edit-bar{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 25%;
+    display: inline-flex;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+}
+.edit-bar li{
+    margin-left: 10px;
+    padding: 0 20px;
+    text-align: center;
+    padding-top: 7px;
+}
+.image-block{
+    width: 500px;
+    height: 500px;
+    margin-left: 25%;
+    display: inline-block;
+    position: relative;
+}
+#realimage{
+    width: 500px;
+    height: 500px;
+}
+.image-block p{
+    position: absolute;
+    font-family: serif;
+    font-size: 20px;
+    max-width: 220px;
+    padding-top: 5px;
+    padding-left: 20px;
+    top: 10%;
+    left: 5%;
+}
+.author{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    font-size: 15px;
+    transform: translate(0, -50%);
+    font-style: italic;
+}
+.style-block{
+    color: rgb(212, 211, 211);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.543);
+    border-radius: 20px;
+}
+.download-button{
+    position: relative;
+    margin-left: 75%;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #43E97B 0%, #38F9D7 100%);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.userdata{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.userimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.qoutetw{
+    margin-top: 25px;
+    margin-left: -10px;
+    font-size: 15px;
+    width: 300px;
+}
+.authortw{
+    font-style: normal;
+    font-size: 16px;
+    padding-top: 5px;
+    font-family: 'Helvetica Neue';
+}
+.style-block-tw{
+    background-color: rgba(255, 255, 255, 0.76);
+    color: black;
+    border-radius: 20px;
+    height: 170px;
+    width: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.emotions{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.iconify{
+   font-size: 25px;
+   line-height: 25px; 
+}
+.emotions .retweet{
+    margin-left: 65px;
+}
+.emotions .heart{
+    margin-left: 65px;
+}
