@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="p1style.css">
+    <link rel="stylesheet" href="page1/p1style.css">
     <title>Document</title>
 </head>
 <body>
@@ -24,9 +24,9 @@
     </div>
     <nav :class="{'block': open, 'hidden': !open}" class="flex-grow mt-4 md:block px-4 pb-4 md:pb-0 md:overflow-y-auto">
       <a class="block px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-white focus:text-white hover:bg-gray-200 focus:bg-blue-200 focus:outline-none focus:shadow-outline sidebar-active sidebar-element" href="#">Simple style</a>
-      <a class="block px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-white focus:text-white  focus:bg-blue-200 focus:outline-none focus:shadow-outline sidebar-element" href="../page2/p2.html">Twitter style</a>
-      <a class="block px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-blue-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-white focus:text-white  focus:bg-blue-200 focus:outline-none focus:shadow-outline sidebar-element" href="../page3/p3.html">iPhone notification style</a>
-      <a class="block px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-white focus:text-white  focus:bg-blue-200 focus:outline-none focus:shadow-outline sidebar-element" href="../page4/p4.html">Free Mode</a>
+      <a class="block px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-white focus:text-white  focus:bg-blue-200 focus:outline-none focus:shadow-outline sidebar-element" href="/page2/p2.html">Twitter style</a>
+      <a class="block px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-blue-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-white focus:text-white  focus:bg-blue-200 focus:outline-none focus:shadow-outline sidebar-element" href="/page3/p3.html">iPhone notification style</a>
+      <a class="block px-4 py-2 mt-2 text-sm font-semibold text-white  rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 hover:text-white focus:text-white  focus:bg-blue-200 focus:outline-none focus:shadow-outline sidebar-element" href="/page4/p4.html">Free Mode</a>
       <div @click.away="open = false" class="relative" x-data="{ open: false }">
         </div>
       </div>
@@ -51,7 +51,7 @@
     </div>
   </div>
 </div> 
-<script src="../html2canvas.js"></script>
-<script src="codesp1.js"></script>
+<script src="html2canvas.js"></script>
+<script src="page1/codesp1.js"></script>
 </body>
 </html>
